@@ -4,7 +4,7 @@ contract DappToken {
 
   uint256 public totalSupply;
 
-  function DappToken() public {
+  constructor() public {
       totalSupply = 1000000;
   }
 
